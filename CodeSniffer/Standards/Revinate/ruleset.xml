@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ruleset name="Revinate">
+ <description>The Revinate coding standard.</description>
+ <rule ref="PSR2"/>
+ <rule ref="ObjectCalisthenics"/>
+</ruleset>
