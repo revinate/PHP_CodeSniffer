@@ -106,6 +106,9 @@ abstract class ObjectCalisthenics_IdentifierLengthSniff implements PHP_CodeSniff
                 break;
 
             case ($length < $this->absoluteMinLength):
+                if (in_array($token['content'], array('$e', '$i', '$j', '$k'))) {
+                    break;
+                }
                 $message = 'Your %s is too short (currently %d chars, must be more or equals than %d chars)';
                 $error   = sprintf($message, $this->tokenString, $length, $this->absoluteMinLength);
 
@@ -114,6 +117,9 @@ abstract class ObjectCalisthenics_IdentifierLengthSniff implements PHP_CodeSniff
                 break;
 
             case ($length < $this->minLength):
+                if (in_array($token['content'], array('$e', '$i', '$j', '$k'))) {
+                    break;
+                }
                 $message = 'Your %s is too short, consider refactoring (currently %d chars, should be more or equals than %d chars)';
                 $warning = sprintf($message, $this->tokenString, $length, $this->minLength);
 

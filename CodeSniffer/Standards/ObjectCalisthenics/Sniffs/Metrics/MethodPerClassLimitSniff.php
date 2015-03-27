@@ -12,14 +12,14 @@ class ObjectCalisthenics_Sniffs_Metrics_MethodPerClassLimitSniff implements PHP_
      *
      * @var integer
      */
-    public $maxCount = 10;
+    public $maxCount = 40;
 
     /**
      * Absolute maximum amount of methods per class
      *
      * @var integer
      */
-    public $absoluteMaxCount = 10;
+    public $absoluteMaxCount = 40;
 
     /**
      * Supported list of tokenizers supported by this sniff.

@@ -10,12 +10,12 @@ class ObjectCalisthenics_Sniffs_Files_FunctionLengthSniff extends ObjectCalisthe
     /**
      * {@inheritdoc}
      */
-    public $maxLength = 20;
+    public $maxLength = 100;
 
     /**
      * {@inheritdoc}
      */
-    public $absoluteMaxLength = 20; 
+    public $absoluteMaxLength = 100;
 
     /**
      * {@inheritdoc}
