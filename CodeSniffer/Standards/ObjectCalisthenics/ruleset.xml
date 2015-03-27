@@ -7,7 +7,7 @@
     <!-- Cannot be implemented, since it requires to be encapsulated ONLY if they have behavior -->
 
     <!-- Rule #5: Do not abbreviate -->
-    <rule ref="ObjectCalisthenics.NamingConventions.VariableLength"/>
+    <!--<rule ref="ObjectCalisthenics.NamingConventions.VariableLength"/>-->
     <rule ref="ObjectCalisthenics.NamingConventions.FunctionLength"/>
     <rule ref="ObjectCalisthenics.NamingConventions.ConstantLength"/>
     <rule ref="ObjectCalisthenics.NamingConventions.ClassLength"/>
