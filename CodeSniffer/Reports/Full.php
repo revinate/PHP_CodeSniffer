@@ -184,10 +184,10 @@ class PHP_CodeSniffer_Reports_Full implements PHP_CodeSniffer_Report
         }//end foreach
 
         echo str_repeat('-', $width).PHP_EOL;
-        if ($report['fixable'] > 0) {
-            echo "\033[1m".'PHPCBF CAN FIX THE '.$report['fixable'].' MARKED SNIFF VIOLATIONS AUTOMATICALLY'."\033[0m".PHP_EOL;
-            echo str_repeat('-', $width).PHP_EOL;
-        }
+//        if ($report['fixable'] > 0) {
+//            echo "\033[1m".'PHPCBF CAN FIX THE '.$report['fixable'].' MARKED SNIFF VIOLATIONS AUTOMATICALLY'."\033[0m".PHP_EOL;
+//            echo str_repeat('-', $width).PHP_EOL;
+//        }
 
         echo PHP_EOL;
         return true;
