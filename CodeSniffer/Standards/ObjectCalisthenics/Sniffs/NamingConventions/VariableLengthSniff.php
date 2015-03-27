@@ -20,12 +20,12 @@ class ObjectCalisthenics_Sniffs_NamingConventions_VariableLengthSniff extends Ob
     /**
      * {@inheritdoc}
      */
-    public $minLength = 2;
+    public $minLength = 1;
 
     /**
      * {@inheritdoc}
      */
-    public $absoluteMinLength = 2;
+    public $absoluteMinLength = 1;
 
     /**
      * {@inheritdoc}
