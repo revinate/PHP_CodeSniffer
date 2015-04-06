@@ -50,6 +50,6 @@ class ObjectCalisthenics_Sniffs_NamingConventions_FunctionLengthSniff extends Ob
      */
     public function isValid(PHP_CodeSniffer_File $phpcsFile, $stackPtr)
     {
-        return ($phpcsFile->findPrevious(T_FUNCTION, ($stackPtr - 1), null, false, null, true) !== false);
+        return ($phpcsFile->findPrevious(T_FUNCTION, ($stackPtr - 1), ($stackPtr - 2), false, null, true) !== false);
     }
 }
