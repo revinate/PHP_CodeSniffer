@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <ruleset name="Revinate">
- <description>The Revinate coding standard.</description>
- <rule ref="ObjectCalisthenics"/>
+    <description>The Revinate coding standard.</description>
+    <rule ref="ObjectCalisthenics"/>
+    <rule ref="Symfony2.Classes.MultipleClassesOneFile"/>
+    <rule ref="Revinate.ErrorLogging.RErrorLogOverErrorLog" />
 </ruleset>
