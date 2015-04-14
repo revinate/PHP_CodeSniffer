@@ -5,4 +5,5 @@
     <rule ref="Symfony2.Classes.MultipleClassesOneFile"/>
     <rule ref="Revinate.ErrorLogging.RErrorLogOverErrorLog" />
     <rule ref="Revinate.Template.ForbiddenFunctions" />
+    <rule ref="Revinate.ControlStructures.DisallowForEachLoopByReference" />
 </ruleset>

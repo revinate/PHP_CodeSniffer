@@ -25,17 +25,17 @@ class ObjectCalisthenics_Sniffs_NamingConventions_ClassLengthSniff extends Objec
     /**
      * {@inheritdoc}
      */
-    public $absoluteMinLength = 3; 
+    public $absoluteMinLength = 3;
 
     /**
      * {@inheritdoc}
      */
-    public $maxLength = 64;
+    public $maxLength = 100;
 
     /**
      * {@inheritdoc}
      */
-    public $absoluteMaxLength = 64;
+    public $absoluteMaxLength = 100;
 
     /**
      * {@inheritdoc}
