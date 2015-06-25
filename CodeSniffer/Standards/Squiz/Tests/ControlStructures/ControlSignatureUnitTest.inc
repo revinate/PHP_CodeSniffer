@@ -144,3 +144,40 @@ elseif ($a == 6) :
 else :
     echo "a is neither 5 nor 6";
 endif;
+
+try {
+    // try body
+}
+catch (FirstExceptionType $e) {
+    // catch body
+}
+catch (OtherExceptionType $e) {
+    // catch body
+}
+
+switch($foo) {
+
+    case 'bar':
+    break;
+
+}
+
+if ($foo)  :
+endif;
+
+?>
+
+<?php while($row = $data->getRow()): ?>
+    <p><?= $val ?></p>
+<?php endwhile; ?>
+
+<?php
+if ($foo === 1) {
+    ?>
+    <table><tr><td>
+    <?php
+    echo '2';
+    ?>
+    </td></tr></table>
+    <?php
+}
