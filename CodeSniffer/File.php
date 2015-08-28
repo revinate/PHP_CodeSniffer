@@ -3219,7 +3219,7 @@ class PHP_CodeSniffer_File
             $end = 0;
         }
 
-        for ($i = $start; $i >= $end; $i--) {
+        for ($i = $start; $i >= $end && $i >= 0; $i--) {
             $found = (bool) $exclude;
             foreach ($types as $type) {
                 if ($this->_tokens[$i]['code'] === $type) {
